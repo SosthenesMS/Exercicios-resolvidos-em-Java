@@ -14,12 +14,13 @@ public class JogoAdivinharNumero {
         Scanner in = new Scanner(System.in);
         
         System.out.println("=== Jogo para adivinhar o número pensado pela máquina ===");
+        System.out.println("Oi, eu sou Eliot e vou pensar em um número entre \"0 e 10\", tente adivinhar!");
         int a = 0;
         int b = -1;
         while (a != b){
-            double r = (1 + Math.random() * (10-0));
+            double r = (0 + Math.random() * (10-0));
             a = (int) r;
-            System.out.print("Digite um número: ");
+            System.out.print("Digite seu palpite: ");
             b = in.nextInt();
             String resp = (a == b)? "Você acertou! O número que eu pensei foi " + a + "\n": "Você errou... O número que eu pensei foi: " + a + "\n";
             System.out.println(resp);
