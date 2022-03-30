@@ -20,7 +20,7 @@ public class TabuadaComWhile {
                 
             System.out.print("Digite um nḿero para calcular: ");
             int a = in.nextInt();
-            System.out.println("\nO resultado é: ");
+            System.out.println("\nA tabuada de " + a + " é: ");
             for (int i = 0; i<= 10 ; i++){
            
             System.out.println(a + " x " + i + " = " + (i*a));
