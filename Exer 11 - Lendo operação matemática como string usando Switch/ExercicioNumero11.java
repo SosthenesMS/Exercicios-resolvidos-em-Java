@@ -3,7 +3,7 @@ package exercicionumero11;
 import java.util.*;
 
 /* Exercício para realizar a leitura de dois valores numéricos e a leitura uma operação matemática como string
- * e calcula o valor e mostrar na tela.
+ * e calcular o valor e mostrar na tela.
  */
 
 public class ExercicioNumero11 {
