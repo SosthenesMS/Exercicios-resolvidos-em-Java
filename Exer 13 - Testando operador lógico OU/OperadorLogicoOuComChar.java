@@ -3,10 +3,7 @@ package operadorlogicooucomchar;
 import java.util.*;
 import java.io.*;
 
-/* Exercício para realizar a leitura de dois valores numéricos e a leitura uma operação matemática como string
- * e calcula o valor e mostrar na tela.
- * Estamos testando com uso de dados do tipo char.
- */
+
 
 public class OperadorLogicoOuComChar{
 
